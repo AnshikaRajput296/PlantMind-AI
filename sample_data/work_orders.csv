@@ -1,0 +1,16 @@
+equipment_tag,date,technician,description,failure_mode,downtime_hours,cost
+P-101,2025-01-12,Rahul Sharma,Pump P-101 tripped due to excessive vibration at bearing housing,vibration,6.5,42000
+P-101,2025-02-20,Amit Verma,Bearing replaced on P-101 after inspection found pitting,bearing failure,10,78000
+P-101,2025-03-18,Rahul Sharma,Seal leak observed on P-101 during routine inspection,seal leak,4,21000
+P-101,2025-04-25,Sunita Rao,P-101 tripped again; vibration levels above 7 mm/s recorded,vibration,8,55000
+P-101,2025-05-30,Amit Verma,Motor overheating detected on P-101 during peak load,overheating,5,30000
+P-101,2025-06-14,Rahul Sharma,P-101 bearing failure recurrence; root cause suspected misalignment,bearing failure,12,95000
+P-102,2025-01-05,Sunita Rao,Routine preventive maintenance on P-102; no issues found,none,2,8000
+P-102,2025-03-02,Amit Verma,P-102 valve stuck during startup; manually cleared,valve stuck,3,15000
+V-201,2025-02-10,Rahul Sharma,V-201 corrosion detected on outer shell during inspection,corrosion,7,60000
+V-201,2025-05-11,Sunita Rao,V-201 corrosion progressed; patch repair applied,corrosion,9,72000
+C-301,2025-01-22,Amit Verma,Compressor C-301 fouling reduced efficiency by 15 percent,fouling,4,25000
+C-301,2025-04-08,Rahul Sharma,C-301 electrical fault in control panel caused shutdown,electrical fault,11,88000
+M-401,2025-02-28,Sunita Rao,Motor M-401 burnout during overload event,motor burnout,15,120000
+M-401,2025-06-01,Amit Verma,M-401 replaced after repeated overheating incidents,overheating,20,210000
+T-501,2025-03-15,Rahul Sharma,Tank T-501 minor leak detected at flange joint,seal leak,3,12000

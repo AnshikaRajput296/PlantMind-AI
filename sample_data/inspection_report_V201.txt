@@ -1,0 +1,20 @@
+INSPECTION REPORT
+Equipment: V-201 (Pressure Vessel)
+Plant: Plant B, Unit 1
+Manufacturer: Sulzer
+Inspector: Sunita Rao
+Date: May 11, 2025
+
+Findings:
+External corrosion observed across approximately 12% of the vessel shell
+surface area, primarily on the north-facing weld seam. Wall thickness
+measurements indicate corrosion rate consistent with prior inspection
+(February 10, 2025). Operating pressure 220 PSI, design pressure 300 PSI.
+Hazard classification: corrosive service, flammable contents.
+
+Compliance Reference: ISO 9001, OISD-118, Factory Act 1948 Section 7.
+A patch repair was applied; however, full re-coating is recommended within
+the next maintenance window to remain within PESO safety margins.
+
+Regulatory gap identified: no documented ISO 45001 risk assessment on file
+for this vessel's confined-space entry procedure.

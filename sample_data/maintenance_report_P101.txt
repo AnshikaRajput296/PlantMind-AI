@@ -1,0 +1,28 @@
+MAINTENANCE REPORT
+Equipment: P-101 (Centrifugal Pump)
+Plant: Plant A, Unit 2
+Manufacturer: Grundfos
+Serial No: SN-88213A
+Date: June 14, 2025
+Technician: Rahul Sharma
+Approved by: Sunita Rao
+
+Description:
+Pump P-101 was taken offline after repeated vibration alarms. Operating pressure
+recorded at 145 PSI, discharge temperature 78 C. Inspection revealed bearing
+failure with visible pitting on the inner race, consistent with the March and
+April 2025 events. Root cause suspected to be shaft misalignment introduced
+during the February coupling replacement, compounded by inadequate lubrication
+interval. Vibration levels measured at 8.2 mm/s RMS, exceeding ISO 10816
+acceptable limits.
+
+Hazards noted: none beyond standard rotating equipment precautions.
+
+Recommended Actions:
+1. Perform laser alignment check on P-101 coupling.
+2. Revise lubrication schedule from 90-day to 45-day interval.
+3. Install continuous vibration monitoring sensor per Honeywell Forge guidelines.
+4. Reference OISD-137 for rotating equipment maintenance standards compliance.
+
+This is the third bearing-related failure on P-101 in 2025, indicating a
+systemic root cause rather than isolated component defect.

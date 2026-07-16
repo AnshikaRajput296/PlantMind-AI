@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+storage/platform.db
+storage/graph/*.json
+storage/graph/*.html
+storage/reports/*.pdf
+storage/uploads/*
+!storage/uploads/.gitkeep
+.env
+.DS_Store

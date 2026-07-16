@@ -1,0 +1,15 @@
+STANDARD OPERATING PROCEDURE - CENTRIFUGAL PUMP STARTUP
+Document: SOP-PUMP-014
+Applicable Equipment: P-101, P-102
+Plant: Plant A
+
+1. Confirm suction valve fully open before startup.
+2. Verify lubrication levels per manufacturer (Grundfos) specification.
+3. Check for abnormal vibration or noise during first 60 seconds of operation.
+4. Monitor discharge pressure; normal operating range 120-160 PSI.
+5. If vibration exceeds 4.5 mm/s RMS, shut down immediately and notify
+   the on-shift engineer.
+6. Hazards: rotating equipment, potential for seal leak under high pressure.
+7. Reference ISO 45001 for personal protective equipment requirements.
+
+Approved by: Amit Verma, Engineering Manager
