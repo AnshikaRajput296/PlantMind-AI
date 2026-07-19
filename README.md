@@ -1,15 +1,15 @@
 # PlantMind AI
 
-### Unified Asset & Operations Brain — Industrial Knowledge Intelligence Platform
+### Unified Asset & Operations Brain: Industrial Knowledge Intelligence Platform
 
 An enterprise-grade, multi-agent AI platform that turns scattered industrial
-documents — maintenance reports, inspection logs, SOPs, compliance records,
-and work orders — into a single, queryable knowledge system. Built for the
+documents: maintenance reports, inspection logs, SOPs, compliance records,
+and work orders into a single, queryable knowledge system. Built for the
 **AI for Industrial Knowledge Intelligence** hackathon theme.
 
 Not a PDF chatbot. A live Knowledge Graph, a hybrid retrieval engine, and
-**10 specialized AI agents** working together to deliver root-cause analysis,
-failure prediction, and compliance auditing — with every answer fully
+specialized AI agents working together to deliver root-cause analysis,
+failure prediction, and compliance auditing, with every answer fully
 explainable and cited.
 
 ---
@@ -248,14 +248,6 @@ All settings are controlled via `.env` (copy from `.env.example`):
 
 No key is required — the platform runs fully offline via a deterministic,
 evidence-grounded Reasoning Engine when none is configured.
-
-## Roadmap
-
-- Voice Copilot for field technicians (speech-to-text / text-to-speech)
-- Computer vision on P&ID diagrams with automatic symbol-to-graph linking
-- Real-time sensor feed integration for live (not retrospective) anomaly detection
-- Multi-plant federated deployment with per-plant access scoping
-- Production migration to Neo4j, PostgreSQL, and a distributed vector store (migration path already documented in `docs/ARCHITECTURE.md`)
 
 ## License
 
