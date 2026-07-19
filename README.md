@@ -123,9 +123,13 @@ retrieval with Reciprocal Rank Fusion and lexical reranking
 
 ## Screenshots
 
-> Add screenshots or a short GIF walkthrough here before submitting —
-> e.g. `docs/screenshots/dashboard.png`, `expert_copilot.png`,
-> `knowledge_graph.png`. Judges typically scan the README before cloning.
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/791e2436-c6ec-4562-95f1-8636388dd550" />
+<img width="1562" height="476" alt="image" src="https://github.com/user-attachments/assets/14d075dc-e251-41cc-9ce1-30a4466f1808" />
+<img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/1ecc04b8-83b3-4e60-bec6-920bc2420140" />
+<img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/2f4af928-971d-4c9e-b251-71617c2f9044" />
+<img width="1917" height="870" alt="image" src="https://github.com/user-attachments/assets/38022dbb-b3c8-4dce-aeb1-288943422049" />
+<img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/87d8f820-49e9-47cb-bc8e-1a57744c92e5" />
+<img width="1917" height="871" alt="image" src="https://github.com/user-attachments/assets/a914927d-9712-4fa9-babb-b79284dc3491" />
 
 ## Getting Started
 
