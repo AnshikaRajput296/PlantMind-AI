@@ -101,13 +101,6 @@ asset, and every relationship between them.
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-This build uses lightweight, zero-config local components (NetworkX,
-SQLite, BM25/TF-IDF) so it runs on a single laptop with no cloud
-dependencies, while keeping every component swap-compatible with the
-full enterprise stack (Neo4j, PostgreSQL, FAISS/Qdrant/Milvus). See
-[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the full production
-migration path.
-
 ## Tech Stack
 
 **Backend:** FastAPI, SQLAlchemy (SQLite), NetworkX, PyVis, scikit-learn,
@@ -122,13 +115,26 @@ Ollama, or an offline template-grounded Reasoning Engine
 retrieval with Reciprocal Rank Fusion and lexical reranking
 
 ## Screenshots
+The following screenshots showcase the core capabilities of **PlantMind AI**, including document intelligence, multi-agent reasoning, knowledge graph exploration, maintenance analytics, compliance validation, and automated reporting.<br>
 
+### Dashboard Overview
 <img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/791e2436-c6ec-4562-95f1-8636388dd550" />
 <img width="1562" height="476" alt="image" src="https://github.com/user-attachments/assets/14d075dc-e251-41cc-9ce1-30a4466f1808" />
+
+### Expert Copilot
 <img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/1ecc04b8-83b3-4e60-bec6-920bc2420140" />
+
+### Knowledge Graph Explorer
 <img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/2f4af928-971d-4c9e-b251-71617c2f9044" />
 <img width="1917" height="870" alt="image" src="https://github.com/user-attachments/assets/38022dbb-b3c8-4dce-aeb1-288943422049" />
+
+### Compliance Agent
+<img width="1917" height="867" alt="Screenshot 2026-07-19 131451" src="https://github.com/user-attachments/assets/9ae7898b-ade3-4fb8-92b0-5e758edaa0da" />
+
+### Analytics Agent
 <img width="1917" height="866" alt="image" src="https://github.com/user-attachments/assets/87d8f820-49e9-47cb-bc8e-1a57744c92e5" />
+
+### Document Intelligence
 <img width="1917" height="871" alt="image" src="https://github.com/user-attachments/assets/a914927d-9712-4fa9-babb-b79284dc3491" />
 
 ## Getting Started
