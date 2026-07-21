@@ -77,27 +77,31 @@ asset, and every relationship between them.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     Streamlit Frontend (Light UI)                 │
-│  Dashboard · Expert Copilot · Knowledge Graph · Maintenance ·    │
-│  Compliance · Analytics · Documents                               │
-└───────────────────────────┬───────────────────────────────────────┘
-                             │ REST (FastAPI)
-┌───────────────────────────▼───────────────────────────────────────┐
-│                      Multi-Agent Orchestrator                     │
-│  Planner → [KnowledgeGraph, VectorSearch, Maintenance, RootCause, │
-│             Prediction, Compliance] → Answer → Report              │
-└───────┬───────────────┬───────────────┬───────────────┬───────────┘
-        │               │               │               │
-┌───────▼─────┐ ┌───────▼─────┐ ┌───────▼─────┐ ┌───────▼─────┐
-│ Knowledge    │ │ Hybrid RAG  │ │ SQLite       │ │ LLM Router   │
-│ Graph        │ │ (BM25+Dense │ │ (Work Orders,│ │ (Groq/Claude/│
-│ (NetworkX)   │ │  +Rerank)   │ │ Docs,Chunks) │ │ GPT/Ollama)  │
-└──────────────┘ └─────────────┘ └──────────────┘ └──────────────┘
+│                    Streamlit Frontend (Light UI)                │
+│  Dashboard · Expert Copilot · Knowledge Graph · Maintenance ·   │
+│            Compliance · Analytics · Documents                   │
+└────────────────────────────────┬────────────────────────────────┘
+                                 │
+                                 │ REST (FastAPI)
+                                 ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                    Multi-Agent Orchestrator                     │
+│  Planner → [KnowledgeGraph, VectorSearch, Maintenance,          │
+│             RootCause, Prediction, Compliance] → Answer → Report│
+└───────┬───────────────┬─────────────────┬───────────────┬───────┘
+        │               │                 │               │
+        ▼               ▼                 ▼               ▼
+┌───────────────┐┌───────────────┐┌───────────────┐┌───────────────┐
+│ Knowledge     ││ Hybrid RAG    ││ SQLite        ││ LLM Router    │
+│ Graph         ││ (BM25 + Dense ││ (Work Orders, ││ (Groq/Claude/ │
+│ (NetworkX)    ││   + Rerank)   ││ Docs, Chunks) ││  GPT/Ollama)  │
+└───────────────┘└───────────────┘└───────────────┘└───────────────┘
         ▲
+        │
 ┌───────┴─────────────────────────────────────────────────────────┐
-│              Document Intelligence / Ingestion Pipeline           │
-│  PDF · Scanned PDF (OCR) · DOCX · XLSX/CSV · Images · TXT/JSON    │
-│  → Rule-based Entity Extraction                                   │
+│          Document Intelligence / Ingestion Pipeline             │
+│  PDF · Scanned PDF (OCR) · DOCX · XLSX/CSV · Images · TXT/JSON  │
+│               → Rule-based Entity Extraction                    │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
